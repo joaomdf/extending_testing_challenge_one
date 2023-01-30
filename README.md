@@ -1,5 +1,7 @@
 # extending_testing_challenge_one
 
+For this challenge I assumed the existence of a home page from which the user could choose to navigate to a sign up or a login page. I also assumed each of the three pages (__home__, __login__ and __sign up__) contained a link to navigate to each other outside of the events highlighted in the challenge.
+
 ## States
 * Home page
 * Sign up page
@@ -14,7 +16,7 @@
 * Signing up
 * Logging out
 
-## Causality
+## Transitions
 * __Navigating to home page__ takes user from __sign up page__ or __login page__ to __home page__
 * __Navigating to login page__ takes user from __home page__ or __sign up page__ to __login page__
 * __Navigating to sign up page__ takes user from __home page__ or __login page__ to __sign up page__
